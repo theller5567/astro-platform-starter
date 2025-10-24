@@ -2,16 +2,4 @@
   command = "npm run build"
   publish = "dist"
 
-[[redirects]]
-  from = "/projects/omniapp"
-  to = "https://omni-media-library.netlify.app"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/projects/omniapp/*"
-  to = "https://omni-media-library.netlify.app/:splat"
-  status = 200
-  force = true
-
 

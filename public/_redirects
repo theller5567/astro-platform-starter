@@ -1,0 +1,4 @@
+/projects/omniapp https://omni-media-library.netlify.app/projects/omniapp 200
+/projects/omniapp/ https://omni-media-library.netlify.app/projects/omniapp/ 200
+/projects/omniapp/* https://omni-media-library.netlify.app/projects/omniapp/:splat 200
+
