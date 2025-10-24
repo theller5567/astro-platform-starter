@@ -1,0 +1,17 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/projects/omniapp"
+  to = "https://travisheller-portfolio.netlify.app"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/projects/omniapp/*"
+  to = "https://travisheller-portfolio.netlify.app/:splat"
+  status = 200
+  force = true
+
+
