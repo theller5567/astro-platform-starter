@@ -4,13 +4,13 @@
 
 [[redirects]]
   from = "/projects/omniapp"
-  to = "https://travisheller-portfolio.netlify.app"
+  to = "https://omni-media-library.netlify.app"
   status = 200
   force = true
 
 [[redirects]]
   from = "/projects/omniapp/*"
-  to = "https://travisheller-portfolio.netlify.app/:splat"
+  to = "https://omni-media-library.netlify.app/:splat"
   status = 200
   force = true
 
